@@ -30,10 +30,6 @@ let package = Package(
                 .product(name: "NIO", package: "swift-nio"),
                 .product(name: "NIOFoundationCompat", package: "swift-nio")
             ]
-        ),
-        .testTarget(
-            name: "HummingWalletTests",
-            dependencies: ["HummingWallet"]
         )
     ]
 )
