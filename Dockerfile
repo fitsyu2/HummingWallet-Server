@@ -11,8 +11,8 @@ COPY Sources ./Sources
 # Build the project
 RUN swift build -c release
 
-# Expose port
-EXPOSE 10000
+# Render dynamically assigns the PORT environment variable
+# No need to hardcode EXPOSE - Render handles this
 
 # Run the server
 CMD ["swift", "run", "-c", "release"]

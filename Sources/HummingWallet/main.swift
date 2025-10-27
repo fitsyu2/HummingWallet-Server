@@ -76,20 +76,28 @@ router.get("/") { _, _ in
 
 // Get port from environment variable (for Render deployment) or default to 8080
 let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8080") ?? 8080
+let host = "0.0.0.0"
 
 logger.info("🔧 PORT environment variable: \(ProcessInfo.processInfo.environment["PORT"] ?? "not set")")
-logger.info("🔧 Using port: \(port)")
+logger.info("🔧 Using host: \(host), port: \(port)")
 
 let app = Application(
     router: router,
     configuration: .init(
-        address: .hostname("0.0.0.0", port: port),
+        address: .hostname(host, port: port),
         serverName: "RideTracker"
     ),
     logger: logger
 )
 
-logger.info("🚗 RideTracker server starting on http://0.0.0.0:\(port)")
+logger.info("🚗 RideTracker server starting on http://\(host):\(port)")
 logger.info("📱 Ready to handle LiveActivity ride tracking requests")
+logger.info("🌐 Health check available at: http://\(host):\(port)/health")
 
-try await app.runService()
+do {
+    logger.info("⚡ Starting Hummingbird server...")
+    try await app.runService()
+} catch {
+    logger.error("❌ Failed to start server: \(error)")
+    throw error
+}
