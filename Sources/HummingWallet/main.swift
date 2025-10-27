@@ -77,6 +77,9 @@ router.get("/") { _, _ in
 // Get port from environment variable (for Render deployment) or default to 8080
 let port = Int(ProcessInfo.processInfo.environment["PORT"] ?? "8080") ?? 8080
 
+logger.info("🔧 PORT environment variable: \(ProcessInfo.processInfo.environment["PORT"] ?? "not set")")
+logger.info("🔧 Using port: \(port)")
+
 let app = Application(
     router: router,
     configuration: .init(

@@ -6,8 +6,6 @@ services:
     buildCommand: swift build -c release
     startCommand: swift run -c release
     envVars:
-      - key: PORT
-        value: 10000
       - key: SWIFT_BACKTRACE
         value: enable=yes
     healthCheckPath: /health
