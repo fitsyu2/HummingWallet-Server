@@ -96,8 +96,14 @@ logger.info("🌐 Health check available at: http://\(host):\(port)/health")
 
 do {
     logger.info("⚡ Starting Hummingbird server...")
+    
+    // Start the server
     try await app.runService()
+    
 } catch {
     logger.error("❌ Failed to start server: \(error)")
-    throw error
+    logger.error("❌ Error details: \(String(describing: error))")
+    
+    // Exit with error code so Render knows the deployment failed
+    exit(1)
 }
