@@ -29,8 +29,7 @@ let package = Package(
                 .product(name: "Crypto", package: "swift-crypto"),
                 .product(name: "NIO", package: "swift-nio"),
                 .product(name: "NIOFoundationCompat", package: "swift-nio")
-            ],
-            path: "Sources/HummingWallet"
+            ]
         ),
         .testTarget(
             name: "HummingWalletTests",
