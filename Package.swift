@@ -34,8 +34,7 @@ let package = Package(
         ),
         .testTarget(
             name: "HummingWalletTests",
-            dependencies: ["HummingWallet"],
-            path: "Tests/HummingWalletTests"
+            dependencies: ["HummingWallet"]
         )
     ]
 )
