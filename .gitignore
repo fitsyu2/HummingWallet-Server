@@ -1,0 +1,10 @@
+.DS_Store
+.env
+*.p8
+keys/
+.build/
+Packages/
+xcuserdata/
+DerivedData/
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+.netrc

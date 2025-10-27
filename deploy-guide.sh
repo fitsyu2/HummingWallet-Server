@@ -1,0 +1,46 @@
+#!/bin/bash
+
+echo "🚀 HummingWallet Server - Render Deployment Guide"
+echo "=================================================="
+echo ""
+
+echo "📋 Pre-deployment Checklist:"
+echo "✅ Code pushed to GitHub repository"
+echo "✅ Dockerfile created"
+echo "✅ render.yaml configured"
+echo "✅ Server updated to use PORT environment variable"
+echo ""
+
+echo "🌐 Render Deployment Steps:"
+echo ""
+echo "1. Go to https://render.com and sign up/login"
+echo "2. Click 'New +' → 'Web Service'"
+echo "3. Connect your GitHub account and select your repository"
+echo "4. Configure the service:"
+echo "   - Name: hummingwallet-server (or your preferred name)"
+echo "   - Runtime: Docker"
+echo "   - Build Command: swift build -c release"
+echo "   - Start Command: swift run -c release"
+echo "   - Health Check Path: /health"
+echo ""
+
+echo "⚙️  Environment Variables (optional for APNs):"
+echo "   - APNS_KEY_ID: Your 10 character key ID"
+echo "   - APNS_TEAM_ID: Your 10 character team ID"
+echo "   - APNS_PRIVATE_KEY_PATH: /path/to/key.p8"
+echo "   - BUNDLE_IDENTIFIER: com.yourcompany.app"
+echo ""
+
+echo "🔗 After deployment, update iOS app endpoints:"
+echo "   Replace tunnel URLs with: https://your-service-name.onrender.com"
+echo ""
+
+echo "🎯 Your server will have these endpoints:"
+echo "   • https://your-service-name.onrender.com/health"
+echo "   • https://your-service-name.onrender.com/api/v1/liveactivities/send"
+echo "   • https://your-service-name.onrender.com/api/v1/video/demo/stream.m3u8"
+echo ""
+
+echo "📱 Don't forget to update your iOS app with the new URL!"
+echo ""
+echo "Happy deploying! 🎉"

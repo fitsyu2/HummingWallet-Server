@@ -1,0 +1,22 @@
+{
+    "configurations": [
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:HummingWallet}",
+            "name": "Debug HummingWallet",
+            "program": "${workspaceFolder:HummingWallet}/.build/debug/HummingWallet",
+            "preLaunchTask": "swift: Build Debug HummingWallet"
+        },
+        {
+            "type": "swift",
+            "request": "launch",
+            "args": [],
+            "cwd": "${workspaceFolder:HummingWallet}",
+            "name": "Release HummingWallet",
+            "program": "${workspaceFolder:HummingWallet}/.build/release/HummingWallet",
+            "preLaunchTask": "swift: Build Release HummingWallet"
+        }
+    ]
+}
