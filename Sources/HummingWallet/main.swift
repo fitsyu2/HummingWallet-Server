@@ -98,14 +98,26 @@ logger.info("🌐 Health check available at: http://\(host):\(port)/health")
 
 do {
     logger.info("⚡ Starting Hummingbird server...")
+    logger.info("🔍 Debug: Current working directory: \(FileManager.default.currentDirectoryPath)")
+    logger.info("🔍 Debug: All environment variables related to PORT:")
+    for (key, value) in ProcessInfo.processInfo.environment {
+        if key.contains("PORT") || key.contains("port") {
+            logger.info("🔍 Debug: \(key)=\(value)")
+        }
+    }
     
-    // Start the server
+    // Give Railway some time to set up networking
+    logger.info("⏱️ Waiting 2 seconds for Railway networking setup...")
+    try await Task.sleep(nanoseconds: 2_000_000_000) // 2 seconds
+    
+    logger.info("🚀 Now starting server binding...")
     try await app.runService()
     
 } catch {
     logger.error("❌ Failed to start server: \(error)")
     logger.error("❌ Error details: \(String(describing: error))")
+    logger.error("❌ Error type: \(type(of: error))")
     
-    // Exit with error code so Render knows the deployment failed
+    // Exit with error code so Railway knows the deployment failed
     exit(1)
 }
