@@ -34,10 +34,23 @@ let logger = Logger(label: "RideTracker")
 
 let router = Router()
 
-router.get("/health") { _, _ in
+// Simple health check endpoint for Railway
+router.get("/health") { request, context in
     return [
         "status": "ok", 
         "service": "RideTracker API",
+        "timestamp": String(Date().timeIntervalSince1970),
+        "port": String(Int(ProcessInfo.processInfo.environment["PORT"] ?? "8080") ?? 8080)
+    ]
+}
+
+// Simple root endpoint
+router.get("/") { _, _ in
+    return [
+        "service": "RideTracker LiveActivity Server",
+        "version": "1.0.0",
+        "description": "Real-time ride tracking with iOS LiveActivity support",
+        "status": "running",
         "timestamp": String(Date().timeIntervalSince1970)
     ]
 }
@@ -61,17 +74,6 @@ apiGroup.post("/liveactivities/update") { request, context in
 
 apiGroup.post("/liveactivities/end") { request, context in
     return try await LiveActivitiesController.endLiveActivity(request: request, context: context)
-}
-
-// Health endpoint with ride-specific info
-router.get("/") { _, _ in
-    return [
-        "service": "RideTracker LiveActivity Server",
-        "version": "1.0.0",
-        "description": "Real-time ride tracking with iOS LiveActivity support",
-        "status": "running",
-        "timestamp": String(Date().timeIntervalSince1970)
-    ]
 }
 
 // Get port from environment variable (for Render deployment) or default to 8080
