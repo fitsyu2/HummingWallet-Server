@@ -1,3 +1,7 @@
-# Railway Deployment Configuration
-PORT=$PORT
-RAILWAY_STATIC_URL=true
+[build]
+builder = "dockerfile"
+
+[deploy]
+healthcheckPath = "/health"
+healthcheckTimeout = 100
+restartPolicyType = "on_failure"
