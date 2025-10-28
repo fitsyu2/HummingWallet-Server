@@ -57,11 +57,13 @@ router.get("/") { _, _ in
 
 let apiGroup = router.group("api/v1")
 
-// Initialize simple video controller
-let videoController = SimpleVideoController()
+// Initialize video controllers
+let simpleVideoController = SimpleVideoController()
+let liveVideoController = LiveVideoController()
 
 // Add video streaming routes
-videoController.addRoutes(to: apiGroup)
+simpleVideoController.addRoutes(to: apiGroup)
+liveVideoController.addRoutes(to: apiGroup)
 
 // Ride tracking LiveActivity endpoints
 apiGroup.post("/liveactivities/send") { request, context in
