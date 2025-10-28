@@ -1,182 +1,19 @@
 [0/1] Planning build
 Building for debugging...
 [0/3] Write swift-version--58304C5D6DBC2206.txt
-Build of product 'HummingWallet' complete! (9.56s)
-2025-10-23T20:47:57+0700 info RideTracker: [HummingWallet] 🚗 RideTracker server starting on http://0.0.0.0:8080
-2025-10-23T20:47:57+0700 info RideTracker: [HummingWallet] 📱 Ready to handle LiveActivity ride tracking requests
-2025-10-23T20:47:57+0700 info RideTracker: [HummingbirdCore] Server started and listening on 0.0.0.0:8080
-2025-10-23T20:49:24+0700 info simple-video-controller: [HummingWallet] Serving demo HLS playlist
-2025-10-23T20:50:41+0700 info simple-video-controller: [HummingWallet] Serving demo HLS playlist
-2025-10-23T21:26:36+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: AA4B5D43
-2025-10-23T21:26:36+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: AA4B5D43
-2025-10-23T21:26:38+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_found, Step=5 mins, Progress=50%
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] ✅ Real APNs configuration validated - Key ID: R5VFGH4JV2, Team ID: 635367SA9L
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 RideTracker LiveActivitiesService initialized successfully
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Driver Found! 🚗 - Your driver is heading to pick you up in a vehicle
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:26:38+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:26:38+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:42+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_pickup, Step=Driver arrived, Progress=50%
-2025-10-23T21:26:42+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:42+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:26:42+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:42+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Driver Arriving - Your driver will arrive in 5 minutes
-2025-10-23T21:26:42+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:26:42+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:26:42+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:45+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_dropoff, Step=15 mins, Progress=50%
-2025-10-23T21:26:45+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:45+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:26:45+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:45+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Started - On your way to your destination
-2025-10-23T21:26:45+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:26:45+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:26:45+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:47+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: AA4B5D43
-2025-10-23T21:26:48+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: AA4B5D43
-2025-10-23T21:26:48+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=completed, Step=Completed, Progress=50%
-2025-10-23T21:26:48+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:48+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:26:48+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:48+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Completed ✅ - You've arrived! Fare: $25000.00
-2025-10-23T21:26:48+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:26:48+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:26:48+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:51+0700 info RideTracker.endLiveActivity: [HummingWallet] Ride completed: Status=completed, Fare=$25000.00
-2025-10-23T21:26:51+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Ending ride for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:51+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:26:51+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:51+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Completed ✅ - You've arrived! Fare: $25000.00
-2025-10-23T21:26:51+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:26:51+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:26:51+0700 info RideTracker.endLiveActivity: [HummingWallet] Successfully ended ride for activityId: F52264DA-A225-4DA7-B38A-B96910F238BB
-2025-10-23T21:26:51+0700 info simple-video-controller: [HummingWallet] Stopping video stream for ride: AA4B5D43
-2025-10-23T21:26:56+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: BDB54FFF
-2025-10-23T21:26:56+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: BDB54FFF
-2025-10-23T21:26:56+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: BDB54FFF
-2025-10-23T21:26:59+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_found, Step=5 mins, Progress=50%
-2025-10-23T21:26:59+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:26:59+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:26:59+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:26:59+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Driver Found! 🚗 - Your driver is heading to pick you up in a vehicle
-2025-10-23T21:26:59+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:26:59+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:26:59+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:26:59+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: BDB54FFF
-2025-10-23T21:27:02+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_pickup, Step=Driver arrived, Progress=50%
-2025-10-23T21:27:02+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:02+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:02+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:02+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Driver Arriving - Your driver will arrive in 5 minutes
-2025-10-23T21:27:02+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:02+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:02+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:06+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_dropoff, Step=15 mins, Progress=50%
-2025-10-23T21:27:06+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:06+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:06+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:06+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Started - On your way to your destination
-2025-10-23T21:27:06+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:06+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:06+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:09+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=completed, Step=Completed, Progress=50%
-2025-10-23T21:27:09+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:09+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:09+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:09+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Completed ✅ - You've arrived! Fare: $25000.00
-2025-10-23T21:27:09+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:09+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:09+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:12+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:12+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:12+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:13+0700 info RideTracker.endLiveActivity: [HummingWallet] Ride completed: Status=completed, Fare=$25000.00
-2025-10-23T21:27:13+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Ending ride for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:13+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:13+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:13+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Completed ✅ - You've arrived! Fare: $25000.00
-2025-10-23T21:27:13+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:13+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:13+0700 info RideTracker.endLiveActivity: [HummingWallet] Successfully ended ride for activityId: 2C5C002F-8034-4DD6-9C78-FA4157F54CF3
-2025-10-23T21:27:13+0700 info simple-video-controller: [HummingWallet] Stopping video stream for ride: BDB54FFF
-2025-10-23T21:27:13+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:16+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:17+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:17+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:17+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:20+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: EFFED4FB
-2025-10-23T21:27:20+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: EFFED4FB
-2025-10-23T21:27:20+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: EFFED4FB
-2025-10-23T21:27:22+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: EFFED4FB
-2025-10-23T21:27:23+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_found, Step=5 mins, Progress=50%
-2025-10-23T21:27:23+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:23+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:23+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:23+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Driver Found! 🚗 - Your driver is heading to pick you up in a vehicle
-2025-10-23T21:27:23+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:23+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:23+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:26+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_pickup, Step=Driver arrived, Progress=50%
-2025-10-23T21:27:26+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:26+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:26+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:26+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Driver Arriving - Your driver will arrive in 5 minutes
-2025-10-23T21:27:26+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:26+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:26+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:29+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=driver_dropoff, Step=15 mins, Progress=50%
-2025-10-23T21:27:29+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:29+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:29+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:29+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Started - On your way to your destination
-2025-10-23T21:27:29+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:29+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:29+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:33+0700 info RideTracker.updateLiveActivity: [HummingWallet] Ride update: Status=completed, Step=Completed, Progress=50%
-2025-10-23T21:27:33+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Updating ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:33+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:33+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:33+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Completed ✅ - You've arrived! Fare: $25000.00
-2025-10-23T21:27:33+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:33+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:33+0700 info RideTracker.updateLiveActivity: [HummingWallet] Successfully updated ride status for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:36+0700 info RideTracker.endLiveActivity: [HummingWallet] Ride completed: Status=completed, Fare=$25000.00
-2025-10-23T21:27:36+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Ending ride for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:36+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📱 Valid push token received - Length: 160
-2025-10-23T21:27:36+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Sending ride notification for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:36+0700 info RideTracker.LiveActivitiesController: [HummingWallet] Alert: Ride Completed ✅ - You've arrived! Fare: $25000.00
-2025-10-23T21:27:36+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 🚀 Real APNs mode: Would send real notification here
-2025-10-23T21:27:36+0700 info RideTracker.LiveActivitiesController: [HummingWallet] 📋 APNs Details - Bundle: fitsyu2.LiveWallet, Environment: sandbox
-2025-10-23T21:27:36+0700 info RideTracker.endLiveActivity: [HummingWallet] Successfully ended ride for activityId: BFD8251D-F3D7-4CED-801E-137CCCC4BA8F
-2025-10-23T21:27:36+0700 info simple-video-controller: [HummingWallet] Stopping video stream for ride: EFFED4FB
-2025-10-23T21:27:36+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:36+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:36+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:36+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:39+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:39+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:39+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:39+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:40+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:40+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:40+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:41+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:42+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:42+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:42+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:42+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:43+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:43+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:43+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:43+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:47+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:48+0700 info simple-video-controller: [HummingWallet] Starting video stream for ride: DEMO123
-2025-10-23T21:27:49+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:49+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:27:49+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:28:17+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T21:28:18+0700 info simple-video-controller: [HummingWallet] Serving HLS playlist for ride: DEMO123
-2025-10-23T23:02:57+0700 info simple-video-controller: [HummingWallet] Serving demo HLS playlist
+Build of product 'HummingWallet' complete! (7.11s)
+2025-10-28T22:18:44+0700 info realtime-stream: [HummingWallet] 🎬 RealtimeStreamController initialized with base URL: https://hummingwallet-server-production.up.railway.app
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔧 PORT environment variable: not set
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔧 Using host: 0.0.0.0, port: 8080
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🚗 RideTracker server starting on http://0.0.0.0:8080
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 📱 Ready to handle LiveActivity ride tracking requests
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🌐 Health check available at: http://0.0.0.0:8080/health
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] ⚡ Starting Hummingbird server...
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔍 Debug: Current working directory: /Users/fitrahsyuhada/Projects/HummingWallet-Workspace/HummingWallet-Server
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔍 Debug: All environment variables related to PORT:
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔍 Debug: SERVER_PORT=8080
+2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] ⏱️ Waiting 2 seconds for Railway networking setup...
+2025-10-28T22:18:47+0700 info RideTracker: [HummingWallet] 🚀 Now starting server binding...
+2025-10-28T22:18:47+0700 error RideTracker: [HummingWallet] ❌ Failed to start server: bind(descriptor:ptr:bytes:): Address already in use) (errno: 48)
+2025-10-28T22:18:47+0700 error RideTracker: [HummingWallet] ❌ Error details: bind(descriptor:ptr:bytes:): Address already in use) (errno: 48)
+2025-10-28T22:18:47+0700 error RideTracker: [HummingWallet] ❌ Error type: IOError

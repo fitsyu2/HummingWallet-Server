@@ -47,9 +47,9 @@ router.get("/health") { request, context in
 // Simple root endpoint
 router.get("/") { _, _ in
     return [
-        "service": "RideTracker LiveActivity Server",
-        "version": "1.0.0",
-        "description": "Real-time ride tracking with iOS LiveActivity support",
+        "service": "HummingWallet Real-time Streaming Server",
+        "version": "2.0.0", 
+        "description": "Real-time ride tracking with simplified streaming - no storage needed",
         "status": "running",
         "timestamp": String(Date().timeIntervalSince1970)
     ]
@@ -57,13 +57,19 @@ router.get("/") { _, _ in
 
 let apiGroup = router.group("api/v1")
 
-// Initialize video controllers
-let simpleVideoController = SimpleVideoController()
-let liveVideoController = LiveVideoController()
+// Initialize controllers
+let realtimeStreamController = RealtimeStreamController()
+let videoForwardingController = VideoForwardingController()
 
-// Add video streaming routes
+// Add real-time streaming routes (no storage needed)
+realtimeStreamController.addRoutes(to: apiGroup)
+
+// Add video forwarding routes (camera → server → viewers)
+videoForwardingController.addRoutes(to: apiGroup)
+
+// Keep simple video controller for demo/testing
+let simpleVideoController = SimpleVideoController()
 simpleVideoController.addRoutes(to: apiGroup)
-liveVideoController.addRoutes(to: apiGroup)
 
 // Ride tracking LiveActivity endpoints
 apiGroup.post("/liveactivities/send") { request, context in
