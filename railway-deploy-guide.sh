@@ -1,0 +1,57 @@
+#!/bin/bash
+
+echo "🚂 HummingWallet Server - Railway Deployment Guide"
+echo "================================================="
+echo ""
+
+echo "📋 Pre-deployment Checklist:"
+echo "✅ Code pushed to GitHub repository"
+echo "✅ Dockerfile created"
+echo "✅ railway.toml configured"
+echo "✅ Server updated to use PORT environment variable"
+echo ""
+
+echo "🌐 Railway Deployment Steps:"
+echo ""
+echo "1. Go to https://railway.app and sign up/login with GitHub"
+echo "2. Click 'New Project' → 'Deploy from GitHub repo'"
+echo "3. Select your repository: fitsyu2/HummingWallet-Server"
+echo "4. Railway will automatically:"
+echo "   - Detect your Dockerfile"
+echo "   - Build your Swift server"
+echo "   - Assign a PORT environment variable"
+echo "   - Deploy to a permanent URL"
+echo ""
+
+echo "⚙️  Railway automatically handles:"
+echo "   ✅ PORT environment variable assignment"
+echo "   ✅ HTTPS SSL certificates"
+echo "   ✅ Domain provisioning"
+echo "   ✅ Health checks"
+echo "   ✅ Auto-scaling"
+echo ""
+
+echo "🔗 After deployment succeeds:"
+echo "   Your server will be available at: https://your-service-name.railway.app"
+echo ""
+
+echo "🎯 Your server will have these endpoints:"
+echo "   • https://your-service-name.railway.app/health"
+echo "   • https://your-service-name.railway.app/api/v1/liveactivities/send"
+echo "   • https://your-service-name.railway.app/api/v1/video/demo/stream.m3u8"
+echo ""
+
+echo "📱 After deployment, update iOS app endpoints:"
+echo "   Run: ./update-ios-endpoints.sh"
+echo "   Enter your Railway URL when prompted"
+echo ""
+
+echo "🎉 Railway Benefits over Render:"
+echo "   ✅ Better Swift/Docker support"
+echo "   ✅ Faster deployments"
+echo "   ✅ More reliable port detection"
+echo "   ✅ Better logging and monitoring"
+echo "   ✅ Generous free tier"
+echo ""
+
+echo "Happy deploying with Railway! 🚂✨"

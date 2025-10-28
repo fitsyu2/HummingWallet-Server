@@ -1,0 +1,3 @@
+# Railway Deployment Configuration
+PORT=$PORT
+RAILWAY_STATIC_URL=true
