@@ -88,9 +88,11 @@ class VideoForwardingController {
     private let baseURL: String
     
     init() {
+        // Use local URL for development, production URL for deployment
+        let isDevelopment = ProcessInfo.processInfo.environment["DEVELOPMENT"] == "true"
         self.baseURL = ProcessInfo.processInfo.environment["RAILWAY_STATIC_URL"] ?? 
-                      "https://hummingwallet-server-production.up.railway.app"
-        logger.info("📹 VideoForwardingController initialized")
+                      (isDevelopment ? "http://localhost:8080" : "https://hummingwallet-server-production.up.railway.app")
+        logger.info("📹 VideoForwardingController initialized with base URL: \(self.baseURL)")
     }
     
     // MARK: - Route Configuration

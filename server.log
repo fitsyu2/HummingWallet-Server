@@ -1,19 +1,24 @@
 [0/1] Planning build
 Building for debugging...
-[0/3] Write swift-version--58304C5D6DBC2206.txt
-Build of product 'HummingWallet' complete! (7.11s)
-2025-10-28T22:18:44+0700 info realtime-stream: [HummingWallet] 🎬 RealtimeStreamController initialized with base URL: https://hummingwallet-server-production.up.railway.app
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔧 PORT environment variable: not set
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔧 Using host: 0.0.0.0, port: 8080
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🚗 RideTracker server starting on http://0.0.0.0:8080
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 📱 Ready to handle LiveActivity ride tracking requests
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🌐 Health check available at: http://0.0.0.0:8080/health
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] ⚡ Starting Hummingbird server...
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔍 Debug: Current working directory: /Users/fitrahsyuhada/Projects/HummingWallet-Workspace/HummingWallet-Server
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔍 Debug: All environment variables related to PORT:
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] 🔍 Debug: SERVER_PORT=8080
-2025-10-28T22:18:44+0700 info RideTracker: [HummingWallet] ⏱️ Waiting 2 seconds for Railway networking setup...
-2025-10-28T22:18:47+0700 info RideTracker: [HummingWallet] 🚀 Now starting server binding...
-2025-10-28T22:18:47+0700 error RideTracker: [HummingWallet] ❌ Failed to start server: bind(descriptor:ptr:bytes:): Address already in use) (errno: 48)
-2025-10-28T22:18:47+0700 error RideTracker: [HummingWallet] ❌ Error details: bind(descriptor:ptr:bytes:): Address already in use) (errno: 48)
-2025-10-28T22:18:47+0700 error RideTracker: [HummingWallet] ❌ Error type: IOError
+[0/4] Write sources
+[1/4] Write swift-version--58304C5D6DBC2206.txt
+[3/6] Emitting module HummingWallet
+[4/6] Compiling HummingWallet VideoForwardingController.swift
+[4/7] Write Objects.LinkFileList
+[5/7] Linking HummingWallet
+[6/7] Applying HummingWallet
+Build of product 'HummingWallet' complete! (8.13s)
+2025-10-30T06:58:07+0700 info realtime-stream: [HummingWallet] 🎬 RealtimeStreamController initialized with base URL: https://hummingwallet-server-production.up.railway.app
+2025-10-30T06:58:07+0700 info video-forwarding: [HummingWallet] 📹 VideoForwardingController initialized with base URL: http://localhost:8080
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 🔧 PORT environment variable: not set
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 🔧 Using host: 0.0.0.0, port: 8080
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 🚗 RideTracker server starting on http://0.0.0.0:8080
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 📱 Ready to handle LiveActivity ride tracking requests
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 🌐 Health check available at: http://0.0.0.0:8080/health
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] ⚡ Starting Hummingbird server...
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 🔍 Debug: Current working directory: /Users/fitrahsyuhada/Projects/HummingWallet-Workspace/HummingWallet-Server
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 🔍 Debug: All environment variables related to PORT:
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] 🔍 Debug: SERVER_PORT=8080
+2025-10-30T06:58:07+0700 info RideTracker: [HummingWallet] ⏱️ Waiting 2 seconds for Railway networking setup...
+2025-10-30T06:58:09+0700 info RideTracker: [HummingWallet] 🚀 Now starting server binding...
+2025-10-30T06:58:09+0700 info RideTracker: [HummingbirdCore] Server started and listening on 0.0.0.0:8080
